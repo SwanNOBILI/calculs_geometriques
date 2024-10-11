@@ -6,16 +6,16 @@
 
 # Développer les Méthodes
   - ## Point
+    - #### afficher
     - #### translater
     - #### distanceEuclidienne
     - #### distanceGeodesique
-    - #### afficher
   - ## Polygone
+    - #### afficher
     - #### translater
     - #### perimetre -> somme des distances entre tous les points
-    - #### afficher
   - ## Cercle
+    - #### afficher
     - #### translater
     - #### perimetre
-    - #### afficher
 <br> <br> <br>
