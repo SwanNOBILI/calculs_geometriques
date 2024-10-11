@@ -1,6 +1,7 @@
 # Calculs Geometriques
 Faire divers calculs géométriques sur des figures simples
 
+---------------------------------------------------------------------------------------------------
 ## Fonctionnalités Finales : 
   - périmètre d'une figure 2D quelconque -> via la méthode "linear integral"
   - surface d'une figure en 2D quelconque -> via la méthode "area under curve integration graph"
@@ -17,5 +18,11 @@ Faire divers calculs géométriques sur des figures simples
       - segment de cercle
       - secteur de cercle
 
+  - approximations de fonctions ?
+      - sinus & version hyperbolique
+      - cosinus & version hyperbolique
+      - tangente & version hyperbolique
+
+---------------------------------------------------------------------------------------------------
 ## Membre :
   - NOBILI Swan
