@@ -15,7 +15,7 @@ Faire divers calculs géométriques sur des figures simples
       - [polygone](https://github.com/Platoooon/calculs_geometriques/raw/main/documentation/img/polygone.jpg)
       - [cercle](https://github.com/Platoooon/calculs_geometriques/raw/main/documentation/img/cercle.png)
       - [ellipse](https://github.com/Platoooon/calculs_geometriques/raw/main/documentation/img/ellipse.png)
-      - [segment](https://github.com/Platoooon/calculs_geometriques/raw/main/documentation/img/segment_circulaire.png)
+      - [segment de cercle](https://github.com/Platoooon/calculs_geometriques/raw/main/documentation/img/segment_circulaire.png)
       - [secteur de cercle](https://github.com/Platoooon/calculs_geometriques/raw/main/documentation/img/secteur_de_cercle.png)
 
   - approximations de fonctions ?
