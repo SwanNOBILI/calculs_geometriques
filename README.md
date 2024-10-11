@@ -13,7 +13,7 @@ Faire divers calculs géométriques sur des figures simples
   - périmètre & surface :
       - polygone
       - cercle
-      - ellpise
+      - ellipse
       - segment de cercle
       - secteur de cercle
 
