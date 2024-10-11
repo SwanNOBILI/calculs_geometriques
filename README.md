@@ -9,14 +9,14 @@ Faire divers calculs géométriques sur des figures simples
 
 ## Functionnalités simplifiées (initiales) :
   - distance :
-      - ligne
-      - arc de cercle
+      - [segment](https://github.com/Platoooon/calculs_geometriques/raw/main/documentation/img/segment.png)
+      - [arc de cercle](https://github.com/Platoooon/calculs_geometriques/raw/main/documentation/img/arc_de_cercle.png)
   - périmètre & surface :
-      - polygone
-      - cercle
-      - ellipse
-      - segment de cercle
-      - secteur de cercle
+      - [polygone](https://github.com/Platoooon/calculs_geometriques/raw/main/documentation/img/polygone.jpg)
+      - [cercle](https://github.com/Platoooon/calculs_geometriques/raw/main/documentation/img/cercle.png)
+      - [ellipse](https://github.com/Platoooon/calculs_geometriques/raw/main/documentation/img/ellipse.png)
+      - [segment](https://github.com/Platoooon/calculs_geometriques/raw/main/documentation/img/segment_circulaire.png)
+      - [secteur de cercle](https://github.com/Platoooon/calculs_geometriques/raw/main/documentation/img/secteur_de_cercle.png)
 
   - approximations de fonctions ?
       - sinus & version hyperbolique
