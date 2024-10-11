@@ -1,13 +1,21 @@
-## Idee générale
-Créer des classes de diverses Figure (Cercle, Polygone, ...)
-Classe Point -> Classe Polygone
-             -> Classe Cercle
+# Développer les Classes
+  - #### Point
+  - #### Polygone -> à besoin de plusieurs objets Point
+  - #### Cercle   -> à besoin de 2 objets Point
+<br> <br> <br>
 
-## Functionnalités :
-  - distance :
-      - [segment](https://github.com/Platoooon/calculs_geometriques/raw/main/documentation/img/segment.png)
-      - [arc de cercle](https://github.com/Platoooon/calculs_geometriques/raw/main/documentation/img/arc_de_cercle.png)
-        
-  - périmètre :
-      - [polygone](https://github.com/Platoooon/calculs_geometriques/raw/main/documentation/img/polygone.jpg)
-      - [cercle](https://github.com/Platoooon/calculs_geometriques/raw/main/documentation/img/cercle.png)
+# Développer les Méthodes
+  - ## Point
+    - #### translater
+    - #### distanceEuclidienne
+    - #### distanceGeodesique
+    - #### afficher
+  - ## Polygone
+    - #### translater
+    - #### perimetre -> somme des distances entre tous les points
+    - #### afficher
+  - ## Cercle
+    - #### translater
+    - #### perimetre
+    - #### afficher
+<br> <br> <br>
