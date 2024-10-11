@@ -3,6 +3,13 @@ Ce projet est un entrainement qui vise à s'exercer sur les bases du Processus d
 Le but est de voir et tester diverses méthodes de Gestion de Projet, comme les Sprints, les Revus et Rétrospections et voir comment les divers outils (exemple: Poker Scrum) qui nous permettrait de faire cela de manière efficace.
 <br> <br> <br>
 
+# Configuration Initiale
+1) Installer [Github Desktop](https://desktop.github.com/download/)
+2) Installer le repository depuis Github Desktop
+3) Installer [VSCode](https://code.visualstudio.com/download)
+4) Installer [MinGw64](https://code.visualstudio.com/docs/cpp/config-mingw) (compilateur C/C++)
+<br> <br> <br>
+
 # Membres
   - NOBILI Swan
   - LEROY Margot
