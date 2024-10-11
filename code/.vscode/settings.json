@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.cpp": "cpp",
+        "*.h": "cpp"
+    },
+    "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/g++.exe", // Chemin vers le compilateur g++
+    "C_Cpp.default.intelliSenseMode": "gcc-x64", // Mode IntelliSense, peut être "clang-x64" selon votre compilateur
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**",
+        "C:/msys64/ucrt64/include" // Ajouter le chemin vers les fichiers d'en-tête
+    ]
+}

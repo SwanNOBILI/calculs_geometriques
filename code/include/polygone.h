@@ -8,10 +8,12 @@ using namespace std;
 
 class Polygone{
 private:
-    std::vector<Point> sommets;
+    std::vector<Point> p_arr;
 public:
-    Polygone(const std::vector<Point>& points);
+    Polygone(const std::vector<Point> p_arr0);
     ~Polygone();
+
+    void afficher();
 };
 
 #endif
