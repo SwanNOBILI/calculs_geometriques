@@ -1,4 +1,6 @@
-# Développer les Classes
+# Finaliser le setup
+
+# Créer les Classes
   - #### Point
   - #### Polygone -> à besoin de plusieurs objets Point
   - #### Cercle   -> à besoin de 2 objets Point
