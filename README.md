@@ -5,10 +5,10 @@ Le but est de voir et tester diverses méthodes de Gestion de Projet, comme les 
 
 # Configuration Initiale
 1) Installer [Github Desktop](https://desktop.github.com/download/)
-2) Installer le repository depuis Github Desktop
-3) Installer [VSCode](https://code.visualstudio.com/download) (IDE)
-4) Installer [MinGw64](https://sourceforge.net/projects/mingw/) (compilateur C/C++)
-5) Dans VsCode, ouvrir le dossier [code](https://github.com/Platoooon/calculs_geometriques/tree/main/code)
+2) Dans Github Dekstop, charger le [répertoire](https://github.com/Platoooon/calculs_geometriques)
+3) Installer [MinGw64](https://sourceforge.net/projects/mingw/) (compilateur C/C++)
+4) Installer [VSCode](https://code.visualstudio.com/download) (IDE)
+5) Dans VSCode, ouvrir le dossier [code](https://github.com/Platoooon/calculs_geometriques/tree/main/code)
 <br> <br> <br>
 
 # Membres
