@@ -4,6 +4,8 @@ Créer des dépendances entre les diverses Classes.
 Développer des méthodes liées à chacune des Classes.
 <br> <br> <br>
 
+
+
 ## Fonctionnalités
   - #### Distance
     - [segment](../img/segment.png)
@@ -14,7 +16,7 @@ Développer des méthodes liées à chacune des Classes.
     - [cercle](../img/cercle.png)
     - [ellipse](../img/ellipse.png)
     - [segment de cercle](../img/segment_circulaire.png)
-    - [secteur de cercle](../img/secteur_de_cercle.png)
+    - [secteur de cercle](../img/secteur_de_cercle.png) <br>
 
   - #### Périmètre d'une figure 2D quelconque -> via la méthode "linear integral"
     
