@@ -3,6 +3,8 @@
 #### Le but est de voir et tester diverses méthodes de Gestion de Projet, comme les Sprints, les Revus et Rétrospections et voir comment les divers outils (exemple: Poker Scrum) qui nous permettrait de faire cela de manière efficace.
 <br> <br> <br>
 
+
+
 # Configuration
 1) #### Installer [Github Desktop](https://desktop.github.com/download/)
 2) #### Dans Github Dekstop, charger le [répertoire](./)
@@ -14,6 +16,8 @@
 8) #### Dans VSCode, installer les extensions `C/C++`, `C/C++ Extension Pack` et `C/C++ Themes`
 9) #### Ouvrir un Terminal powershell, et lancer la commande `./run.bat`
 <br> <br> <br>
+
+
 
 # Membres
   - #### NOBILI Swan
