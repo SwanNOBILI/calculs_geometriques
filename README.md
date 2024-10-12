@@ -6,8 +6,9 @@ Le but est de voir et tester diverses méthodes de Gestion de Projet, comme les 
 # Configuration Initiale
 1) Installer [Github Desktop](https://desktop.github.com/download/)
 2) Installer le repository depuis Github Desktop
-3) Installer [VSCode](https://code.visualstudio.com/download)
-4) Installer [MinGw64](https://code.visualstudio.com/docs/cpp/config-mingw) (compilateur C/C++)
+3) Installer [VSCode](https://code.visualstudio.com/download) (IDE)
+4) Installer [MinGw64](https://sourceforge.net/projects/mingw/) (compilateur C/C++)
+5) Dans VsCode, ouvrir le dossier "code"
 <br> <br> <br>
 
 # Membres
