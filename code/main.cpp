@@ -1,11 +1,3 @@
-#include <iostream>
-
-int main(){
-    std::cout << "aled" << std::endl;
-    return 0;
-}
-
-/*
 #include "include/cercle.h"
 #include "include/point.h"
 #include "include/polygone.h"
@@ -16,4 +8,3 @@ int main(){
     c0.afficher();
     return 0;
 }
-*/

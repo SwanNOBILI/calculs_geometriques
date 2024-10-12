@@ -7,7 +7,6 @@ class Point{
 private:
     short x, y;
 public:
-    Point();
     Point(const short x, const short y);
     ~Point();
 
