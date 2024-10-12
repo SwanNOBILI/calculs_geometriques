@@ -8,7 +8,7 @@ Le but est de voir et tester diverses méthodes de Gestion de Projet, comme les 
 2) Installer le repository depuis Github Desktop
 3) Installer [VSCode](https://code.visualstudio.com/download) (IDE)
 4) Installer [MinGw64](https://sourceforge.net/projects/mingw/) (compilateur C/C++)
-5) Dans VsCode, ouvrir le dossier "code"
+5) Dans VsCode, ouvrir le dossier [code](https://github.com/Platoooon/calculs_geometriques/tree/main/code)
 <br> <br> <br>
 
 # Membres
