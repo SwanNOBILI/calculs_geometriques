@@ -1,5 +1,5 @@
 # Finaliser le Setup
-#### Voir la partie [`Configuration`](../../readme.md#configuration) du `README.md`.
+#### Voir la partie [`Configuration`](../../README.md#configuration) du `README.md`.
 <br> <br> <br>
 
 # Se répartir les Tâches à faire (indiquées ci-dessous)
