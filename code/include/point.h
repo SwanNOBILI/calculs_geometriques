@@ -10,6 +10,8 @@ public:
     Point(const short x, const short y);
     ~Point();
 
+    float distanceEuclidienne(const Point p1);
+
     void afficher();
 };
 

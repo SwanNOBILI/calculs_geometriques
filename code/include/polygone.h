@@ -13,6 +13,8 @@ public:
     Polygone(const std::vector<Point> p_arr0);
     ~Polygone();
 
+    float perimetre();
+
     void afficher();
 };
 

@@ -12,6 +12,8 @@ public:
     Cercle(const Point p0, unsigned short r0);
     ~Cercle();
 
+    float perimetre();
+
     void afficher();
 };
 
