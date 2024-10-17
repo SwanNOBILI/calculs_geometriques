@@ -1,11 +1,11 @@
-#include "../include/SegmentDeCercle.h"
+#include "../include/segmentDeCercle.h"
 
 // Constructeur qui prend l'angle en degrés
 SegmentDeCercle::SegmentDeCercle(const Cercle & c0, float angleDegres) 
     : cercle(c0), angle(angleDegres) {
     // On s'assure que l'angle est positif et compris entre 0 et 360 degrés
     if(angleDegres < 0 || angleDegres > 360) {
-        throw invalid_argument("L'angle doit être compris entre 0 et 360 degres.");
+        throw invalid_argument("L'angle doit etre compris entre 0 et 360 degres.");
     }
 }
 
