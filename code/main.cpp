@@ -1,6 +1,7 @@
 #include "include/cercle.h"
 #include "include/point.h"
 #include "include/polygone.h"
+#include "include/SegmentDeCercle.h"
 #include <iostream>
 
 void sprint1(void);
@@ -14,6 +15,7 @@ void sprint1(){
     Point p0(0,0), p1(-3,0), p2(-3,-4), p3(1, 1);   
     Polygone pol({p0,p1,p2});
     Cercle c0(p0, 5);
+	SegmentDeCercle sdc0(c0, 45);
 
     // Points
     cout << "------------------------------------------------------------------------------------------" << endl;
@@ -32,5 +34,11 @@ void sprint1(){
     cout << "------------------------------------------------------------------------------------------" << endl;
     c0.afficher();
     cout << "Perimetre = " << c0.perimetre() << endl;
+    cout << "------------------------------------------------------------------------------------------" << endl << endl;
+	
+	// Segment De Cercle
+    cout << "------------------------------------------------------------------------------------------" << endl;
+    sdc0.afficher();
+    cout << "Perimetre = " << sdc0.perimetre() << endl;
     cout << "------------------------------------------------------------------------------------------" << endl << endl;
 }
