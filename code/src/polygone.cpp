@@ -38,7 +38,7 @@ float Polygone::surface() {
 
 void Polygone::afficher(){
     for(size_t i = 0; i < p_arr.size(); i++){
-        cout << "Point " << i << " = ";
+        cout << "p" << i << " = ";
         p_arr[i].afficher();
         cout << endl;
     }

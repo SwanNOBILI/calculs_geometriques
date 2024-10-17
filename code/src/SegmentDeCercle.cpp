@@ -1,7 +1,7 @@
 #include "../include/segmentDeCercle.h"
 
 // Constructeur qui prend l'angle en degrés
-SegmentDeCercle::SegmentDeCercle(const Cercle & c0, float angleDegres) 
+SegmentDeCercle::SegmentDeCercle(const Cercle c0, float angleDegres) 
     : cercle(c0), angle(angleDegres) {
     // On s'assure que l'angle est positif et compris entre 0 et 360 degrés
     if(angleDegres < 0 || angleDegres > 360) {
@@ -15,7 +15,7 @@ SegmentDeCercle::~SegmentDeCercle() {
 
 float SegmentDeCercle::perimetre() const {
     // Convertir l'angle en degrés en radians
-    float angleRadians = angle * 3.14159265359 / 180.0;
+    float angleRadians = angle * M_PI / 180.0;
 
     // Récupérer le rayon du cercle
     float r = cercle.getRayon();
@@ -30,6 +30,8 @@ float SegmentDeCercle::perimetre() const {
     return longueurArc + longueurCorde;
 }
 
-void SegmentDeCercle::afficher() const {
-    cout << "Segment de cercle avec un angle de " << angle << " degres" << endl;
+void SegmentDeCercle::afficher(){
+    cout << "Segment de Cercle base sur le Cercle : ";
+    cercle.afficher();
+    cout << "Avec un Angle de Secteur de Cercle de " << angle << " degres" << endl;
 }

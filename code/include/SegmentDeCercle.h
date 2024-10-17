@@ -13,11 +13,11 @@ private:
 	float angle;
 
 public:
-	SegmentDeCercle(const Cercle & c0, float angleDegres);
+	SegmentDeCercle(const Cercle c0, float angleDegres);
 	~SegmentDeCercle();
 
 	float perimetre() const;
-	void afficher() const;
+	void afficher();
 };
 
 #endif
