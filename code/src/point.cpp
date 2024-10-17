@@ -23,10 +23,6 @@ float Point::distanceEuclidienne(const Point p1){
     return sqrt(pow(x-p1.x, 2) + pow(y-p1.y, 2));
 }
 
-float Point::distanceEuclidienne(const Point p1){
-    return sqrt(pow(x-p1.x, 2) + pow(y-p1.y, 2));
-}
-
 float Point::distanceGeodesique(Point point, short rayon) {
 	float lat1 = asin(static_cast<float>(this->y) / rayon);
 	float long1 = atan2(this->y, this->x);
@@ -41,6 +37,12 @@ float Point::distanceGeodesique(Point point, short rayon) {
 	
 	return 2. * rayon * asin(sqrt(h));
 }
+
+void Point::translater(const short dx, const short dy){
+	x += dx;
+	y += dy;
+}
+
 
 void Point::afficher(){
     cout << "(" << x << "," << y << ")";

@@ -17,6 +17,8 @@ public:
 	
 	float distanceGeodesique(Point point, short rayon);
 
+    void translater(const short dx, const short dy);
+
     void afficher();
 };
 
