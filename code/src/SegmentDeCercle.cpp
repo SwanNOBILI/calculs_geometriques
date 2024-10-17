@@ -31,5 +31,5 @@ float SegmentDeCercle::perimetre() const {
 }
 
 void SegmentDeCercle::afficher() const {
-    cout << "Segment de cercle avec un angle de " << angle << " degres." << endl;
+    cout << "Segment de cercle avec un angle de " << angle << " degres" << endl;
 }

@@ -17,7 +17,7 @@ public:
 	Ellipse(const Point& centre0, float a0, float b0);
 	~Ellipse();
 
-	float calculerPerimetre() const;
+	float perimetre() const;
 	void afficher() const;
 };
 
