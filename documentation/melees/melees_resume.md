@@ -6,14 +6,23 @@
 
 # 15/10
 ## 13:30
-- scrum poker fait
-- création du code ok
-- afficher ok
+-  à faire
+    - Simon et Margot : faire le setup
+    - translater à faire
+    - distanceEuclidienne
+    - distanceGeodesique
+    - perimetre
+-   fait
+    - scrum poker
+    - création du code
+    - afficher
 
 ## 14:30
-- distanceEuclidienne ok
-- perimetre polynome ok
-- distanceGeodesique en cours
+-  à faire
+    - distanceGeodesique
+-   fait
+    - distanceEuclidienne
+    - perimetre polynome
 
  # 17/10
  ## 13:30
@@ -21,8 +30,10 @@
  - retard sur tout
 
 ## 14:33 
-- translater (pt + cercle ok)
-- surface de polygone ok
-- segment de cercle ok
-- surface cercle en cours
-- ellipse en cours
+-  à faire
+    - surface cercle
+    - ellipse en cours
+-   fait
+    - translater (pt + cercle)
+    - surface de polygone
+    - segment de cercle
