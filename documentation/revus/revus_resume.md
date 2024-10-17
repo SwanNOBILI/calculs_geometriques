@@ -10,6 +10,7 @@
 -   on a pas fait
     - surface cercle
     - péri ellipse (pas testé)
+      - création de la classe
       - changements : petit diam = demi axe mineur
       - gd diam : demi axe majeur
       - centre : ok
