@@ -3,6 +3,11 @@
 Ellipse::Ellipse(const Point & centre0, float a0, float b0) 
 	: centre(centre0), a(a0), b(b0) {
 	// On s'assure que les demi-axes sont positifs
+	if (a0 < b0) {
+		float temp = a0;
+		a0 = b0;
+		b0 = a0;
+	}
 	if (a0 <= 0 || b0 <= 0) {
 		throw invalid_argument("Les demi-axes doivent etre positifs.");
 	}
