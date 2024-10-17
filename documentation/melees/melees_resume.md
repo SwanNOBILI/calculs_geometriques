@@ -27,7 +27,8 @@
  # 17/10
  ## 13:30
  - péri cercle fini 
- - retard sur tout
+ - retard sur tout :
+     - re-répartion des tâches 
 
 ## 14:33 
 -  à faire
