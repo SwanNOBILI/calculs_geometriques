@@ -16,6 +16,8 @@ public:
 
     float perimetre();
 
+    void translater(const short dx, const short dy);
+
     void afficher();
 };
 

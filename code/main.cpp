@@ -22,6 +22,9 @@ void sprint1(){
     cout << "p0 = "; p0.afficher(); cout << endl;
     cout << "Distance Euclidienne entre p0 et p3 = " << p0.distanceEuclidienne(p3) << endl;
 	cout << "Distance Geodesique entre p0 et p3 avec un rayon de 10 = " << p0.distanceGeodesique(p3, 10) << endl;
+    cout << "Translation de p0 de (2, 3)" << endl;
+    p0.translater(2, 3);
+    cout << "Nouvelles coordonnees de p0 = "; p0.afficher(); cout << endl;
     cout << "------------------------------------------------------------------------------------------" << endl << endl;
     
     // Polygones
@@ -34,6 +37,9 @@ void sprint1(){
     cout << "------------------------------------------------------------------------------------------" << endl;
     c0.afficher();
     cout << "Perimetre = " << c0.perimetre() << endl;
+    cout << "Translation du cercle c0 de (2, 3)" << endl;
+    c0.translater(2, 3);  // Translation du centre du cercle de (2, 3)
+    c0.afficher();  // Affichage du cercle après translation
     cout << "------------------------------------------------------------------------------------------" << endl << endl;
 	
 	// Segment De Cercle

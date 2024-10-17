@@ -18,6 +18,10 @@ float Cercle::perimetre(){
     return 2*M_PI*r;
 }
 
+void Cercle::translater(const short dx, const short dy) {
+    c.translater(dx, dy);
+}
+
 void Cercle::afficher(){
     cout << "Centre = "; 
     c.afficher();
