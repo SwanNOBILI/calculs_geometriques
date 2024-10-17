@@ -10,6 +10,9 @@ public:
     Point(const short x, const short y);
     ~Point();
 
+    short getX();
+    short getY();
+
     float distanceEuclidienne(const Point p1);
 	
 	float distanceGeodesique(Point point, short rayon);

@@ -11,6 +11,18 @@ Point::~Point(){
 
 }
 
+short Point::getX(){
+    return x;
+}
+
+short Point::getY(){
+    return y;
+}
+
+float Point::distanceEuclidienne(const Point p1){
+    return sqrt(pow(x-p1.x, 2) + pow(y-p1.y, 2));
+}
+
 float Point::distanceEuclidienne(const Point p1){
     return sqrt(pow(x-p1.x, 2) + pow(y-p1.y, 2));
 }

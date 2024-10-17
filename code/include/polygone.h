@@ -14,6 +14,7 @@ public:
     ~Polygone();
 
     float perimetre();
+    float surface();
 
     void afficher();
 };
