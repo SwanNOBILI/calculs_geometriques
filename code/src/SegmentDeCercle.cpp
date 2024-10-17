@@ -5,7 +5,7 @@ SegmentDeCercle::SegmentDeCercle(const Cercle & c0, float angleDegres)
     : cercle(c0), angle(angleDegres) {
     // On s'assure que l'angle est positif et compris entre 0 et 360 degrés
     if(angleDegres < 0 || angleDegres > 360) {
-        throw invalid_argument("L'angle doit être compris entre 0 et 360 degrés.");
+        throw invalid_argument("L'angle doit être compris entre 0 et 360 degres.");
     }
 }
 
@@ -31,6 +31,5 @@ float SegmentDeCercle::perimetre() const {
 }
 
 void SegmentDeCercle::afficher() const {
-    cout << "Segment de cercle avec un angle de " << angle << " degrés." << endl;
-    cout << "Périmètre : " << perimetre() << endl;
+    cout << "Segment de cercle avec un angle de " << angle << " degres." << endl;
 }
