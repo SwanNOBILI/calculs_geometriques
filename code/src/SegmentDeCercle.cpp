@@ -13,7 +13,7 @@ SegmentDeCercle::~SegmentDeCercle() {
     // Destructor
 }
 
-float SegmentDeCercle::calculerPerimetre() const {
+float SegmentDeCercle::perimetre() const {
     // Convertir l'angle en degrés en radians
     float angleRadians = angle * 3.14159265359 / 180.0;
 
@@ -32,5 +32,5 @@ float SegmentDeCercle::calculerPerimetre() const {
 
 void SegmentDeCercle::afficher() const {
     cout << "Segment de cercle avec un angle de " << angle << " degrés." << endl;
-    cout << "Périmètre : " << calculerPerimetre() << endl;
+    cout << "Périmètre : " << perimetre() << endl;
 }

@@ -11,6 +11,8 @@ private:
 public:
     Cercle(const Point p0, unsigned short r0);
     ~Cercle();
+	
+	unsigned short getRayon() const;
 
     float perimetre();
 

@@ -16,7 +16,7 @@ public:
 	SegmentDeCercle(const Cercle & c0, float angleDegres);
 	~SegmentDeCercle();
 
-	float calculerPerimetre() const;
+	float perimetre() const;
 	void afficher() const;
 };
 

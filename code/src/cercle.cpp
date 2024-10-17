@@ -10,6 +10,10 @@ Cercle::~Cercle(){
     
 }
 
+unsigned short Cercle::getRayon() const {
+	return this->r;
+}
+
 float Cercle::perimetre(){
     return 2*M_PI*r;
 }
