@@ -19,6 +19,7 @@ void sprint1(){
     cout << "------------------------------------------------------------------------------------------" << endl;
     cout << "p0 = "; p0.afficher(); cout << endl;
     cout << "Distance Euclidienne entre p0 et p3 = " << p0.distanceEuclidienne(p3) << endl;
+	cout << "Distance Geodesique entre p0 et p3 avec un rayon de 10 = " << p0.distanceGeodesique(p3, 10) << endl;
     cout << "------------------------------------------------------------------------------------------" << endl << endl;
 
     // Polygones

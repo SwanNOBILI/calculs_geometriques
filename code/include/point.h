@@ -11,6 +11,8 @@ public:
     ~Point();
 
     float distanceEuclidienne(const Point p1);
+	
+	float distanceGeodesique(Point point, short rayon);
 
     void afficher();
 };
