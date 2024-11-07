@@ -40,10 +40,12 @@ float Ellipse::surface() const {
     return M_PI * a * b;
 }
 
-void Ellipse::translater(const short dx, const short dy) {
+void Ellipse::translater(const float dx, const float dy) {
     centre.translater(dx, dy);
 }
 
-void Ellipse::afficher() const {
-	cout << "Ellipse avec demi-axe majeur a = " << a << " et demi-axe mineur b = " << b << endl;
+void Ellipse::afficher() const{
+	cout << "Ellipse de centre ";
+	centre.afficher();
+	cout << " avec demi-axe majeur a = " << a << " et demi-axe mineur b = " << b << endl;
 }

@@ -1,5 +1,8 @@
 @echo off
 
+rem Supprime le dossier build
+rmdir /s /q build
+
 rem Crée un dossier build s'il n'existe pas
 if not exist build (
     mkdir build
@@ -33,7 +36,6 @@ echo.
 
 rem Retourne au dossier racine
 cd ..
-
 
 rem Supprime le dossier build
 rmdir /s /q build

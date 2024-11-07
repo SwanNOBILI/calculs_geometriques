@@ -5,21 +5,21 @@ using namespace std;
 
 class Point{
 private:
-    short x, y;
+    float x, y;
 public:
-    Point(const short x, const short y);
+    Point(const float x, const float y);
     ~Point();
 
-    short getX();
-    short getY();
+    float getX();
+    float getY();
 
     float distanceEuclidienne(const Point p1);
 	
-	float distanceGeodesique(Point point, short rayon);
+	float distanceGeodesique(Point point, float rayon);
 
-    void translater(const short dx, const short dy);
+    void translater(const float dx, const float dy);
 
-    void afficher();
+    void afficher() const;
 };
 
 #endif

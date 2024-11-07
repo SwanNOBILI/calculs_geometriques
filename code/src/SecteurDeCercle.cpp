@@ -38,12 +38,12 @@ float SecteurDeCercle::surface() const {
     return 0.5 * r * r * angleRadians;
 }
 
-void Cercle::translater(const short dx, const short dy) {
+void SecteurDeCercle::translater(const float dx, const float dy) {
     cercle.translater(dx, dy);
 }
 
 void SecteurDeCercle::afficher() const {
-    cout << "Secteur de cercle avec un angle de " << angle << " degrés." << endl;
-    cout << "Périmètre : " << perimetre() << endl;
-    cout << "Surface : " << surface() << endl;
+    cout << "Secteur de cercle avec ";
+    cercle.afficher(false);
+    cout << " et un angle de " << angle << " degres" << endl;
 }

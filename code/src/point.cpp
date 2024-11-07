@@ -2,7 +2,7 @@
 #include <iostream>
 #include <cmath>
 
-Point::Point(const short x0, const short y0){
+Point::Point(const float x0, const float y0){
     x = x0;
     y = y0;
 }
@@ -11,11 +11,11 @@ Point::~Point(){
 
 }
 
-short Point::getX(){
+float Point::getX(){
     return x;
 }
 
-short Point::getY(){
+float Point::getY(){
     return y;
 }
 
@@ -23,7 +23,7 @@ float Point::distanceEuclidienne(const Point p1){
     return sqrt(pow(x-p1.x, 2) + pow(y-p1.y, 2));
 }
 
-float Point::distanceGeodesique(Point point, short rayon) {
+float Point::distanceGeodesique(Point point, float rayon) {
 	float lat1 = asin(static_cast<float>(this->y) / rayon);
 	float long1 = atan2(this->y, this->x);
 	
@@ -38,12 +38,12 @@ float Point::distanceGeodesique(Point point, short rayon) {
 	return 2. * rayon * asin(sqrt(h));
 }
 
-void Point::translater(const short dx, const short dy){
+void Point::translater(const float dx, const float dy){
 	x += dx;
 	y += dy;
 }
 
 
-void Point::afficher(){
+void Point::afficher() const{
     cout << "(" << x << "," << y << ")";
 }

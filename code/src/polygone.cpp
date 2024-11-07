@@ -35,13 +35,13 @@ float Polygone::surface() {
     return std::abs(area) / 2.0;
 }
 
-void Ellipse::translater(const short dx, const short dy) {
+void Polygone::translater(const float dx, const float dy) {
 	for (auto & point : p_arr) {
 		point.translater(dx, dy);
 	}
 }
 
-void Polygone::afficher(){
+void Polygone::afficher() const{
     for(size_t i = 0; i < p_arr.size(); i++){
         cout << "p" << i << " = ";
         p_arr[i].afficher();

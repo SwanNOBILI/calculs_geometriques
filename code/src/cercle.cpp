@@ -2,7 +2,7 @@
 #include <iostream>
 #include <cmath>
 
-Cercle::Cercle(const Point p0, unsigned short r0) : c(p0) {
+Cercle::Cercle(const Point p0, float r0) : c(p0) {
     r = r0;
 }
 
@@ -10,7 +10,11 @@ Cercle::~Cercle(){
     
 }
 
-unsigned short Cercle::getRayon() const {
+Point Cercle::getCentre() const{
+    return c;
+}
+
+float Cercle::getRayon() const {
 	return r;
 }
 
@@ -22,12 +26,15 @@ float Cercle::surface() const {
     return M_PI*pow(r, 2);
 }
 
-void Cercle::translater(const short dx, const short dy) {
+void Cercle::translater(const float dx, const float dy) {
     c.translater(dx, dy);
 }
 
-void Cercle::afficher(){
-    cout << "Centre = "; 
+void Cercle::afficher(const bool b) const{
+    cout << "Cercle de centre = "; 
     c.afficher();
-    cout << " de Rayon = " << r << endl;
+    cout << " de Rayon = " << r;
+    if (b){
+        cout << endl;
+    }
 }
