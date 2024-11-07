@@ -41,6 +41,10 @@ float SegmentDeCercle::surface() const {
     return 0.5 * r * r * (angleRadians - sin(angleRadians));
 }
 
+void Cercle::translater(const short dx, const short dy) {
+    cercle.translater(dx, dy);
+}
+
 void SegmentDeCercle::afficher() const {
     cout << "Segment de cercle avec un angle de " << angle << " degrés." << endl;
     cout << "Périmètre : " << perimetre() << endl;
