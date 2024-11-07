@@ -1,7 +1,7 @@
-#include "../include/SegmentDeCercle.h"
+#include "../include/SecteurDeCercle.h"
 
 // Constructeur qui prend l'angle en degrés
-SegmentDeCercle::SegmentDeCercle(const Cercle & c0, float angleDegres) 
+SecteurDeCercle::SecteurDeCercle(const Cercle & c0, float angleDegres)
     : cercle(c0), angle(angleDegres) {
     // On s'assure que l'angle est positif et compris entre 0 et 360 degrés
     if(angleDegres < 0 || angleDegres > 360) {
@@ -9,11 +9,11 @@ SegmentDeCercle::SegmentDeCercle(const Cercle & c0, float angleDegres)
     }
 }
 
-SegmentDeCercle::~SegmentDeCercle() {
+SecteurDeCercle::~SecteurDeCercle() {
     // Destructor
 }
 
-float SegmentDeCercle::perimetre() const {
+float SecteurDeCercle::perimetre() const {
     // Convertir l'angle en degrés en radians
     float angleRadians = angle * 3.14159265359 / 180.0;
 
@@ -23,26 +23,23 @@ float SegmentDeCercle::perimetre() const {
     // Longueur de l'arc
     float longueurArc = r * angleRadians;
 
-    // Longueur de la corde
-    float longueurCorde = 2 * r * sin(angleRadians / 2);
-
-    // Périmètre du segment de cercle
-    return longueurArc + longueurCorde;
+    // Périmètre du secteur de cercle (arc + 2 rayons)
+    return longueurArc + 2 * r;
 }
 
-float SegmentDeCercle::surface() const {
+float SecteurDeCercle::surface() const {
     // Convertir l'angle en degrés en radians
     float angleRadians = angle * 3.14159265359 / 180.0;
 
     // Récupérer le rayon du cercle
     float r = cercle.getRayon();
 
-    // Surface du segment de cercle
-    return 0.5 * r * r * (angleRadians - sin(angleRadians));
+    // Surface du secteur de cercle
+    return 0.5 * r * r * angleRadians;
 }
 
-void SegmentDeCercle::afficher() const {
-    cout << "Segment de cercle avec un angle de " << angle << " degrés." << endl;
+void SecteurDeCercle::afficher() const {
+    cout << "Secteur de cercle avec un angle de " << angle << " degrés." << endl;
     cout << "Périmètre : " << perimetre() << endl;
-	cout << "Surface : " << surface() << endl;
+    cout << "Surface : " << surface() << endl;
 }
