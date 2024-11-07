@@ -18,6 +18,7 @@ public:
 	~Ellipse();
 
 	float perimetre() const;
+
 	void afficher() const;
 };
 
