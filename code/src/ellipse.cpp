@@ -16,12 +16,32 @@ Ellipse::~Ellipse() {
 	// Destructor
 }
 
+Point Ellipse::getCentre() const {
+    return centre;
+}
+
+float Ellipse::getDemiAxeMajeur() const {
+    return a;
+}
+
+float Ellipse::getDemiAxeMineur() const {
+    return b;
+}
+
 float Ellipse::perimetre() const {
 	// Utilisation de la formule approchée de Ramanujan pour le périmètre de l'ellipse
 	float h = pow((a - b), 2) / pow((a + b), 2); // Paramètre auxiliaire h
 	float perimetre = M_PI * (a + b) * (1 + (3 * h) / (10 + sqrt(4 - 3 * h)));
 
 	return perimetre;
+}
+
+float Ellipse::surface() const {
+    return M_PI * a * b;
+}
+
+void Ellipse::translater(const short dx, const short dy) {
+    centre.translater(dx, dy);
 }
 
 void Ellipse::afficher() const {

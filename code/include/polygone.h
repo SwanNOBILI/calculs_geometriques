@@ -15,6 +15,8 @@ public:
 
     float perimetre();
     float surface();
+	
+	void translater(const short dx, const short dy);
 
     void afficher();
 };

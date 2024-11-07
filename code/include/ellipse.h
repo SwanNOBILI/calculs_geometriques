@@ -16,8 +16,15 @@ private:
 public:
 	Ellipse(const Point& centre0, float a0, float b0);
 	~Ellipse();
+	
+	Point getCentre() const;
+	float getDemiAxeMajeur() const;
+	float getDemiAxeMineur() const;
 
 	float perimetre() const;
+	float surface() const;
+	
+	void translater(const short dx, const short dy);
 
 	void afficher() const;
 };
