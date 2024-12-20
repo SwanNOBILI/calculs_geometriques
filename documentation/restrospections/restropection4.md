@@ -9,4 +9,4 @@
     - **optimizePath** (6 | 8 | 7)  
     - **calculateDistance** (7 | 9 | 8)  
   - Observation : Accord général sur les résultats.  
-- **Définition du sprint 6** : Priorité donnée aux optimisations et validations pour une démonstration.
+- **Définition du sprint 5** : Priorité donnée aux optimisations et validations pour une démonstration.
