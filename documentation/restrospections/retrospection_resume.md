@@ -10,6 +10,7 @@ sur une échelle de 1 à 10 ( Swan | Margot | Simon )
 - surface cercle ( 2 | 9 | 3 )
 - peri ellipse ( 5 | 10 | 4 )
 - peri seg cercle ( 5 | 10 | 5 ) 
+<br>
 On remarque un commun accord sur l'ordre de difficultés
 ### Ccl
 -  Positif
