@@ -38,3 +38,15 @@ void Cercle::afficher(const bool b) const{
         cout << endl;
     }
 }
+
+vector<Point> Cercle::genererPoints(int n_points) const{
+    std::vector<Point> points;
+    points.reserve(n_points);
+    for (int i = 0; i < n_points; ++i) {
+        float angle = 2 * M_PI * i / n_points;
+        float x = getCentre().getX() + getRayon() * cos(angle);
+        float y = getCentre().getY() + getRayon() * sin(angle);
+        points.push_back(Point (x,y));
+    }
+    return points;
+}

@@ -10,7 +10,7 @@ void demos(string choix);
 std::vector<Point> genererPointsCercle(const Cercle& c, int n_points);
 
 int main(){
-    demos("sprint3");
+    demos("sprint4");
     return 0;
 }
 
@@ -20,7 +20,6 @@ void demos(string choix){
         Polygone pol({p0,p1,p2});
         Cercle c0(p0, 5);
         
-
         // Points
         cout << "------------------------------------------------------------------------------------------" << endl;
         cout << "p0 = "; p0.afficher(); cout << endl;
@@ -133,6 +132,27 @@ void demos(string choix){
         cout << "Surface = " << e0.surface() << endl;
         cout << "------------------------------------------------------------------------------------------" << endl << endl;
     
+    }else if(choix=="sprint4"){
+        Point p0(0,0);
+        Cercle c0(p0, 1);
+        Ellipse e0(p0, 5, 3);
+        int nb_points = 500;
+        Polygone pol0(c0.genererPoints(nb_points));
+        Polygone pol1(e0.genererPoints(nb_points));
+
+        // Perimetre Cercle
+        cout << "------------------------------------------------------------------------------------------" << endl;
+        c0.afficher(true);
+        cout << "Perimetre exacte = " << c0.perimetre() << endl;
+        cout << "Perimetre approxime = " << pol0.perimetre() << endl;
+        cout << "------------------------------------------------------------------------------------------" << endl << endl;
+
+        // Perimetre Ellipse
+        cout << "------------------------------------------------------------------------------------------" << endl;
+        e0.afficher();
+        cout << "Perimetre exacte = " << e0.perimetre() << endl;
+        cout << "Perimetre approxime = " << pol1.perimetre() << endl;
+        cout << "------------------------------------------------------------------------------------------" << endl << endl;
     }else{
         cout << "Choisir un sprint valide !!!" << endl;
     }

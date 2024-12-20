@@ -49,3 +49,17 @@ void Ellipse::afficher() const{
 	centre.afficher();
 	cout << " avec demi-axe majeur a = " << a << " et demi-axe mineur b = " << b << endl;
 }
+
+vector<Point> Ellipse::genererPoints(int n_points) const {
+    std::vector<Point> points;
+    points.reserve(n_points);
+	
+    for (int i = 0; i < n_points; ++i) {
+        float angle = 2 * M_PI * i / n_points; // Angle en radians
+        float x = getCentre().getX() + a * cos(angle); // Demi-axe majeur
+        float y = getCentre().getY() + b * sin(angle); // Demi-axe mineur
+        points.push_back(Point(x, y));
+    }
+
+    return points;
+}

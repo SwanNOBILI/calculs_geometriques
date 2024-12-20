@@ -4,6 +4,7 @@
 #include "point.h"
 #include <cmath>
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -23,6 +24,7 @@ public:
 
 	float perimetre() const;
 	float surface() const;
+	vector<Point> genererPoints(int n_points) const;
 	
 	void translater(const float dx, const float dy);
 
