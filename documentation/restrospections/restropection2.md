@@ -1,0 +1,12 @@
+### Rétrospective 2.
+- **Méthode Daily Stand-up améliorée** : Bons retours, communication efficace sur les blocages.  
+- **Réunion de planification** :  
+  - Présentation de la tâche : Vue avec le PO à la séance précédente.  
+  - Estimation individuelle : Échelle de 1 à 10.  
+  - Résultats :  
+    - **initMatrix** (2 | 3 | 2)  
+    - **rotate** (3 | 4 | 3)  
+    - **scale** (5 | 7 | 6)  
+    - **area** (8 | 9 | 8)  
+  - Observation : Accord général sur les complexités estimées.  
+- **Définition du sprint 4** : Objectif de finaliser les tâches prévues pour le module graphique.  

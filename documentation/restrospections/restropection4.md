@@ -1,0 +1,12 @@
+### Rétrospective 4.
+- **Amélioration des estimations Scrum Poker** : Ajustement de l'échelle pour plus de précision.  
+- **Réunion de planification** :  
+  - Présentation de la tâche : Revue avec le PO avant la séance.  
+  - Estimation individuelle : Échelle de 1 à 10.  
+  - Résultats :  
+    - **findPath** (2 | 2 | 2)  
+    - **validatePath** (4 | 5 | 4)  
+    - **optimizePath** (6 | 8 | 7)  
+    - **calculateDistance** (7 | 9 | 8)  
+  - Observation : Accord général sur les résultats.  
+- **Définition du sprint 6** : Priorité donnée aux optimisations et validations pour une démonstration.

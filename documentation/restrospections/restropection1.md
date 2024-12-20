@@ -1,19 +1,13 @@
-# 15/10
-## 14:45
-méthode scrum poker mise en place : bons retours là-dessus, équipe satisfaite de cette technique
-### Scrum Poker
-Réunion de planification
-
-Présentation de la tâche
-déjà vu avce le PO à la séance 2
-
-Estimation individuelle
-sur une échelle de 1 à 10
-
-afficher ( 1 | 1 | 1 )
-translater ( 2 | 3 | 2 )
-distanceEuclidienne ( 3 | 5 | 4 )
-distanceGeodesique ( 7 | 9 | 7 )
-perimetre ( 4 | 6 | 5 ) On remarque un commun accord sur l'ordre de difficultés
-Définition du sprint 3
-l'objectif de ce sprint est de livré les fonctions finies (on s'accorde une marge pour la fonction distanceGeodesique)
+### Rétrospective 1.
+- **Méthode Scrum Poker mise en place** : Bons retours de l'équipe, satisfaite de cette technique.  
+- **Réunion de planification** :  
+  - Présentation de la tâche : déjà vue avec le PO lors de la séance 2.  
+  - Estimation individuelle : Échelle de 1 à 10.  
+  - Résultats :  
+    - **afficher** (1 | 1 | 1)  
+    - **translater** (2 | 3 | 2)  
+    - **distanceEuclidienne** (3 | 5 | 4)  
+    - **distanceGeodesique** (7 | 9 | 7)  
+    - **perimetre** (4 | 6 | 5)  
+  - Observation : Accord commun sur l'ordre des difficultés.  
+- **Définition du sprint 3** : Objectif de livrer les fonctions finies avec une marge pour la fonction *distanceGeodesique*. 

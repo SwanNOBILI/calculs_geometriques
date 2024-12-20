@@ -1,0 +1,12 @@
+### Rétrospective 5.
+- **Feedbacks sur les priorités du sprint** : Bonne adaptation des délais pour éviter la surcharge.  
+- **Réunion de planification** :  
+  - Présentation de la tâche : Confirmée avec le PO lors de la séance précédente.  
+  - Estimation individuelle : Échelle de 1 à 10.  
+  - Résultats :  
+    - **createGraph** (3 | 3 | 3)  
+    - **updateGraph** (5 | 6 | 5)  
+    - **analyzeGraph** (7 | 8 | 7)  
+    - **generateReport** (9 | 10 | 9)  
+  - Observation : Les scores reflètent une bonne cohérence dans l'équipe.  
+- **Définition du sprint 7** : Objectif d'avoir une version prête à livrer au client.

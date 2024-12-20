@@ -1,0 +1,12 @@
+### Rétrospective 3.
+- **Technique de rétrospective "Start/Stop/Continue" introduite** : Très bien accueillie par l'équipe.  
+- **Réunion de planification** :  
+  - Présentation de la tâche : Confirmée avec le PO lors de la séance précédente.  
+  - Estimation individuelle : Échelle de 1 à 10.  
+  - Résultats :  
+    - **initMap** (1 | 1 | 1)  
+    - **translateMap** (3 | 4 | 3)  
+    - **mergeMap** (6 | 7 | 6)  
+    - **findNearestPoint** (9 | 10 | 9)  
+  - Observation : Consensus sur les priorités.  
+- **Définition du sprint 5** : Objectif de livrer une version intermédiaire testée pour validation.  
