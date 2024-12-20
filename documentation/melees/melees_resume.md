@@ -40,11 +40,12 @@
     - segment de cercle
  
 # 20/12
-## 17:30
+## 16:00
 - à faire :
     - générer les points depuis la classe Cercle
     - vérifier que le périmètre apporixmé (celui du Polygone de Points) est le même que le périmètre exact (celui du Cercle)
     - générer les points depuis la classe Ellipse
     - vérifier que le périmètre apporixmé (celui du Polygone de Points) est le même que le périmètre exact (celui de l'Ellipse)
+## 17:30
 - fait :
     - Tout a été effectué avec succès
