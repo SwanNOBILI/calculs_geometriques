@@ -1,35 +1,39 @@
 @echo off
 
-rem Supprime le dossier build
-rmdir /s /q build
+rem Stocke l'argument dans une variable
+@echo off
+set "ARGUMENT=%~1"
+echo Argument: %ARGUMENT%
 
-rem Crée un dossier build s'il n'existe pas
-if not exist build (
-    mkdir build
+
+rem Supprime le dossier build s'il existe
+if exist build (
+    rmdir /s /q build
 )
+
+rem Crée un dossier build
+mkdir build
 cd build
 
 rem Génère les fichiers Make avec CMake
-cmake -G "MinGW Makefiles" ..
-if errorlevel 1 (
+cmake -G "MinGW Makefiles" .. || (
     echo.
     echo Erreur lors de la génération avec CMake.
     exit /b
 )
 
 rem Compile le projet
-cmake --build .
-if errorlevel 1 (
+cmake --build . || (
     echo.
     echo Erreur lors de la compilation du projet.
     exit /b
 )
 
-rem Vider le terminal
+rem Nettoie l'affichage
 cls
 
-rem Exécute l'exécutable
-bin\MonProjet.exe
+rem Exécute l'exécutable avec l'argument
+bin\MonProjet.exe "%ARGUMENT%"
 
 rem Passe à la ligne
 echo.

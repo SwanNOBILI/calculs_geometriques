@@ -9,8 +9,14 @@
 void demos(string choix);
 std::vector<Point> genererPointsCercle(const Cercle& c, int n_points);
 
-int main(){
-    demos("sprint4");
+int main(int argc, char* argv[]) {
+    if (argc < 2) {
+        std::cerr << "Erreur : Aucun argument fourni. Veuillez spécifier un sprint." << std::endl;
+        return 1;
+    }
+
+    std::string choix = argv[1];
+    demos(choix);
     return 0;
 }
 
