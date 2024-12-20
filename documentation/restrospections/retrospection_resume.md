@@ -12,7 +12,9 @@ sur une échelle de 1 à 10 ( Swan | Margot | Simon )
 - peri seg cercle ( 5 | 10 | 5 ) 
 <br>
 On remarque un commun accord sur l'ordre de difficultés
-### Ccl
+
+
+## Conclusion
 -  Positif
     - Bonne communication
     - Tâches divisées
